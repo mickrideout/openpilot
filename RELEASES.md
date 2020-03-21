@@ -1,3 +1,33 @@
+Version 0.7.4 + VW 1.3 (2020-03-20)
+========================
+ * (VW Community) Hotfix to add missing CAN messages from VW Touran
+ * (VW Community) Hotfix to add missing CAN messages from high-trim Skoda Superb
+ * (VW Community) Network position auto-detect, no more R242 vs J533 branch!
+ * (VW Community) Trans type auto-detect, no more regular vs manual/e-Golf branch!
+ * (VW Community) Now fully in-sync with Comma upstream safety at full torque!
+ * (VW Community) Improved ISO24242 compliance in Panda code
+ * (VW Community) Fix for virtual Panda relay code breaking BP/C2 cars with real relays
+ * New driving model: improved lane changes and lead car detection
+ * Improved driver monitoring model: improve eye detection
+ * Improved calibration stability
+ * Improved lateral control on some 2019 and 2020 Toyota Prius
+ * Improved lateral control on VW Golf: 20% more steering torque
+ * Fixed bug where some 2017 and 2018 Toyota C-HR would use the wrong steering angle sensor
+ * Support for Honda Insight thanks to theantihero!
+ * Code cleanup in car abstraction layers and ui
+
+Version 0.7.3 (2020-02-21)
+========================
+ * Support for 2020 Highlander thanks to che220!
+ * Support for 2018 Lexus NX 300h thanks to kengggg!
+ * Speed up ECU firmware query
+ * Fix bug where manager would sometimes hang after shutting down the car
+
+Version 0.7.2 + VW 1.2.1 (2020-03-05)
+========================
+ * (VW Community) Hotfix for "no comms between process" on cars without factory LKAS
+ * (VW Community) Hotfix for occasional steering fault messages after engaging
+
 Version 0.7.2 + VW 1.2 (2020-02-08)
 ========================
  * (VW Community) Updated MQB tuning parameters for less ping-pong and better banked road handling
